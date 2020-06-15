@@ -4,13 +4,13 @@ from psycopg2.extras import RealDictCursor
 from clcrypto import generate_salt, password_hash, check_password
 
 
-def create_conenction(db_name='communications_server'):
+def create_connection(db_name='communications_server'):
     # Otwarcie połączenie do podanej bazy danych.
     db_connection = connect(
         user='postgres',
         password='coderslab',
         host='localhost',
-        database=db_name
+        database=db_name,
     )
     # Włączenie autocommit powoduje natychmiastowe wykonanie poleceń typu swtórz tabelę(transakcji)
     db_connection.autocommit = True
@@ -47,9 +47,8 @@ class _Model:
         data = []
         # Stworzenie listy obiektów na podstawie otrzymanych danych
         for record in cursor.fetchall():
-            object = cls._create_object(
-                **record)  # Stworzenie jednego obiektu reprezentującego jeden wpis w bazie danych
-            data.append(object)  # Dodanie obiektu do listy
+            obj = cls._create_object(**record)  # Stworzenie jednego obiektu reprezentującego jeden wpis w bazie danych
+            data.append(obj)  # Dodanie obiektu do listy
         return data  # Zwrócenie listy obiektów lub pustej
 
     @classmethod
@@ -61,10 +60,6 @@ class _Model:
         if record:
             return cls._create_object(**record)  # Stworzenie obiektu jeśli baza zwróciła dane
         return None  # Zwrócenie non jeśli wpis z podanym ID nie istnieje
-
-    @classmethod
-    def _create_object(cls, *args, **kwargs):
-        raise NotImplemented  # To trzeba napisać samemu ;)
 
 
 class User(_Model):
@@ -123,7 +118,7 @@ class User(_Model):
     def _update_record_in_db(self, cursor):
         # Aktualizacja wpisu w bazie danych
         sql = "UPDATE Users SET email=%s, username=%s, hashed_password=%s WHERE id=%s"
-        cursor.execute(sql, (self.email, self.username, self._hashed_password), self.id)
+        cursor.execute(sql, (self.email, self.username, self._hashed_password, self.id))
 
 
 class Message(_Model):
@@ -131,20 +126,46 @@ class Message(_Model):
 
     def __init__(self):
         super(Message, self).__init__()
-        # Dopisać atrybuty do konstruktora
+        self.from_id = ''
+        self.to_id = ''
+        self.text = ''
 
     @classmethod
-    def _create_object(cls, param1, param2):  # zamień parametry na konkretne kolumny!
-        raise NotImplemented  # Tutaj tworzycie obiekt jak w klasie User
+    def _create_object(cls, from_id, to_id, text, creation_date, id=-1):  # zamień parametry na konkretne kolumny!
+        message = Message()
+        message.from_id = from_id
+        message.to_id = to_id
+        message.text = text
+        message.creation_date = creation_date
+        return message
+
+    def _create_record_db(self, cursor):
+        # SQL aby dodać obiekt do bazy
+        sql = "INSERT INTO messages (from_id, to_id, text) VALUES (%s, %s, %s) RETURNING id"
+        cursor.execute(sql, (self.from_id, self.to_id, self.text))
+        message_id = cursor.fetchone()['id']  # Aktualizacna ID, przyznanego przez bazę
+        self._id = message_id
 
     def save(self, cursor):
-        raise NotImplemented  # Zapis lub aktualizacja recordów w bazie danych!
+        if self.id == -1:
+            # Jeśli ID = -1 to znaczy że obiekt jest stworzony poprzez kod i nie istnieje jego odpowiednik w bazie danych
+            self._create_record_db(cursor)
+            return True
+
+    def load_messages_to(cls, cursor, to_id):
+        # Wczytanie danych z bazy danych poprzez email
+        sql = "SELECT * FROM messages WHERE to_id=%s"
+        cursor.execute(sql, (to_id,))
+        record = cursor.fetchone()
+        if record:
+            return cls._create_object(**record)  # zwrócenie obiektu
+        return None
 
 
 if __name__ == '__main__':
     salt = generate_salt()
 
-    connection = create_conenction()
+    connection = create_connection(db_name="war2")
     cursor = get_cursor(connection)
 
     user1 = User()

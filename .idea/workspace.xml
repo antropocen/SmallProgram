@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5d007b-20f5-4a83-bb74-e56e059e4402" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logic_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/storage_v2/_src_/database/communications_server.Ze7ZNA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/storage_v2/_src_/database/communications_server.Ze7ZNA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqls/messages_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Kraków-Warsztaty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kraków-Warsztaty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/storage_v2/_src_/database/communications_server.Ze7ZNA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/storage_v2/_src_/database/communications_server.Ze7ZNA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dispacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/dispacher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqls/users_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sqls/users_table.sql" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,60 +25,6 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Kraków_Warsztaty$main.coverage" NAME="main Coverage Results" MODIFIED="1573389037960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Kraków_Warsztaty$models.coverage" NAME="models Coverage Results" MODIFIED="1573385635963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Kraków-Warsztaty" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="26" column="39" lean-forward="true" selection-end-line="38" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dispacher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="85" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,69 +41,44 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sqls/create_database.sql" />
-        <option value="$PROJECT_DIR$/sqls/users_table.sql" />
-        <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dispacher.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/console.sql" />
-        <option value="$PROJECT_DIR$/logic_handler.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="44" />
-    <option name="y" value="62" />
-    <option name="width" value="1936" />
-    <option name="height" value="1098" />
-  </component>
+  <component name="ProjectId" id="1d5B6zh7ObpcTMZPZSB0ds0kL87" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Kraków-Warsztaty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kraków-Warsztaty" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TwitterLike" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Database Script.messages_table.sql">
+    <configuration name="create_database.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sqls/create_database.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="36a72dd1-8b6e-456b-9ef1-3708442c4cd3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="messages_table.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sqls/messages_table.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="36a72dd1-8b6e-456b-9ef1-3708442c4cd3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="users_table.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sqls/users_table.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="36a72dd1-8b6e-456b-9ef1-3708442c4cd3" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Kraków-Warsztaty" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +93,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="-u user2@wp.pl -p 12345678 -l" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -195,12 +123,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Database Script.create_database.sql" />
+      <item itemvalue="Database Script.users_table.sql" />
+      <item itemvalue="Database Script.messages_table.sql" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.models" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.messages_table.sql" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Database Script.users_table.sql" />
+        <item itemvalue="Database Script.create_database.sql" />
         <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -213,129 +154,164 @@
       <option name="presentableId" value="Default" />
       <updated>1573380600188</updated>
       <workItem from="1573380605530" duration="11780000" />
+      <workItem from="1591704903639" duration="36303000" />
+      <workItem from="1591981729205" duration="62665000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11780000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" weight="0.329582" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.24973205" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Regex Tester" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.51623374" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.5914634" />
-      <window_info anchor="bottom" id="Database Console" order="5" weight="0.63611114" />
-      <window_info anchor="bottom" id="Python Console" order="6" weight="0.32900432" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="13" weight="0.56060606" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="make" order="0" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.32743838" />
-      <window_info anchor="right" id="Jenkins" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clcrypto/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/database/communications_server/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqls/create_database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqls/users_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5e6afd44-86d4-4ad0-ba8f-efe82d9c3328/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="85" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dispacher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="26" column="39" lean-forward="true" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="293" y="405" width="1390" height="294" key="#SQL_Dialects" timestamp="1591706728127">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="293" y="405" width="1390" height="294" key="#SQL_Dialects/67.27.1853.1053@67.27.1853.1053" timestamp="1591706728127" />
+    <state x="457" y="236" width="1181" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592146616307">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="457" y="236" width="1181" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1592146616307" />
+    <state x="655" y="200" width="666" height="704" key="#create_database.sql" timestamp="1591707676397">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="655" y="200" width="666" height="704" key="#create_database.sql/67.27.1853.1053@67.27.1853.1053" timestamp="1591707676397" />
+    <state x="591" y="96" width="666" height="819" key="#main" timestamp="1591732340270">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="591" y="96" width="666" height="819" key="#main/67.27.1853.1053@67.27.1853.1053" timestamp="1591732340270" />
+    <state x="655" y="200" width="666" height="704" key="#messages_table.sql" timestamp="1592172364692">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="655" y="200" width="666" height="704" key="#messages_table.sql/67.27.1853.1053@67.27.1853.1053" timestamp="1592172364692" />
+    <state x="655" y="200" width="666" height="704" key="#users_table.sql" timestamp="1592140942290">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="655" y="200" width="666" height="704" key="#users_table.sql/67.27.1853.1053@67.27.1853.1053" timestamp="1592140942290" />
+    <state x="676" y="310" width="624" height="484" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1592202857508">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="310" width="624" height="484" key="DUMP_DIALOG_DIMENSION_KEY/67.27.1853.1053@67.27.1853.1053" timestamp="1592202857508" />
+    <state x="743" y="283" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592202847013">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="743" y="283" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1592202847013" />
+    <state width="1853" height="450" key="GridCell.Tab.0.bottom" timestamp="1592172511172">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="450" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1592172511172" />
+    <state width="1853" height="450" key="GridCell.Tab.0.center" timestamp="1592172511171">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="450" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1592172511171" />
+    <state width="1853" height="450" key="GridCell.Tab.0.left" timestamp="1592172511170">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="450" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1592172511170" />
+    <state width="1853" height="450" key="GridCell.Tab.0.right" timestamp="1592172511171">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="450" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1592172511171" />
+    <state width="1853" height="358" key="GridCell.Tab.1.bottom" timestamp="1592170813490">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="358" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1592170813490" />
+    <state width="1853" height="358" key="GridCell.Tab.1.center" timestamp="1592170813489">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="358" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1592170813489" />
+    <state width="1853" height="358" key="GridCell.Tab.1.left" timestamp="1592170813489">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="358" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1592170813489" />
+    <state width="1853" height="358" key="GridCell.Tab.1.right" timestamp="1592170813489">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1853" height="358" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1592170813489" />
+    <state width="347" height="500" key="HiddenNamespacesPopup" timestamp="1591705756072">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="347" height="500" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1591705756072" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1591706587620">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1591706587620" />
+    <state x="845" y="424" width="367" height="256" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1592172316404">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="845" y="424" width="367" height="256" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.1053@67.27.1853.1053" timestamp="1592172316404" />
+    <state x="521" y="264" width="934" height="576" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592142314399">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="521" y="264" width="934" height="576" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1592142314399" />
+    <state x="718" y="384" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1591706490458">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="718" y="384" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1591706490458" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dispacher.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dispacher.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dispacher.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dispacher.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dispacher.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SmallProgram$main.coverage" NAME="main Coverage Results" MODIFIED="1592170738351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,10 +1,3 @@
-CREATE TABLE Users (
-  id SERIAL PRIMARY KEY,
-  email VARCHAR(255) unique,
-  username VARCHAR(255),
-  hashed_password VARCHAR(80)
-);
-
 CREATE TABLE Messages (
   id SERIAL PRIMARY KEY,
   from_id INTEGER,

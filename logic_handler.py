@@ -14,6 +14,10 @@ class OptionsHandler:
         return self.username and self.password
 
     @property
+    def login_user(self) -> bool:
+        return self._login_provided and\
+               not any([self.new_password, self.edit, self.delete, self.list, self.send, self.to])
+    @property
     def create_user(self) -> bool:
         return self._login_provided and \
                not any([self.new_password, self.edit, self.delete, self.list, self.send, self.to])
